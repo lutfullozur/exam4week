@@ -627,5 +627,148 @@ transition: 1s;
     margin-left: 310px;
 }
 .itemfisnish3{
-    margin-left: =100px;
+    margin-left: -100px;
+}
+@media(max-width: 768px){
+   .header{
+    flex-direction: column;
+    margin-left: 200px;
+   }
+   .itemheader01{
+    display: none;
+   }
+   .itemheader1{
+    display: none;
+   }
+   .itemheader5{
+    margin-left: 90px;
+   }
+   .container{
+    flex-direction: column;
+   }
+   .right{
+    display: none;
+   }
+   .itemlogo{
+    flex-direction: column;
+    display: none;
+   }
+   .container1{
+    flex-direction: column;
+   }
+   .divtable{
+    flex-direction: column;
+   }
+   .latestwork{
+    display: none;
+   }
+   .porfolio{
+    display: none;
+   }
+   .photoall{
+    flex-direction: column;
+    margin-top: 500px;
+   }
+   .showall{
+    display: none;
+   }
+   .girl{
+    display: none;
+    flex-direction: column;
+    .itemgirl2{
+        width: 100%;
+        width: 100px;
+        display: none;
+    }
+   }
+   .itemtable{
+    color: white;
+   }
+  .itenphoto2{
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+  }
+  .itenphoto1{
+    margin-left:120px;
+  }
+  .events{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 1px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -600px;
+  }
+  .explore{
+    text-align: center;
+    margin-left: 1px;
+  }
+  .exploremore{
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin-left: 1px;
+  }
+  .latestWork{
+    text-align: center;
+    margin-left: 1px;
+    margin-top: -20px;
+    color: #ffffff;
+  }
+  .background2{
+    margin-top: -20px;
+  }
+  .people{
+    flex-direction: column;
+    margin-left:160px;
+  }
+  .ourteam{
+    display: none;
+  }
+  .teamdevelopes{
+    color: white;
+    margin-top: -70px;
+    display: none;
+  }
+  .foter{
+    flex-direction: column;
+    display: none;
+  }
+  .foterleft{
+    width: 100px;
+    display: none;
+  }
+  .foterright{
+    width: 700px;
+    display: none;
+  }
+  .itemcontainer1{
+    display: none;
+  }
+  .finish{
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+  }
+  .itemcontainer{
+    display: none;
+  }
+  .background4{
+    margin-top: -100px;
+  }
+  .urafinish{
+    display: none;
+  }
+  .treepoints{
+    margin-left:220px;
+  }
+  .itemrowleft{
+    display: none;
+  }
+  .itemrowleft1{
+    display: none;
+  }
 }
